@@ -1,0 +1,14 @@
+<!-- App/window icon, built into sidestick. -->
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="16.png">icons/hicolor/16x16/apps/sidestick.png</file>
+    <file alias="22.png">icons/hicolor/22x22/apps/sidestick.png</file>
+    <file alias="24.png">icons/hicolor/24x24/apps/sidestick.png</file>
+    <file alias="32.png">icons/hicolor/32x32/apps/sidestick.png</file>
+    <file alias="48.png">icons/hicolor/48x48/apps/sidestick.png</file>
+    <file alias="64.png">icons/hicolor/64x64/apps/sidestick.png</file>
+    <file alias="128.png">icons/hicolor/128x128/apps/sidestick.png</file>
+    <file alias="256.png">icons/hicolor/256x256/apps/sidestick.png</file>
+    <file alias="512.png">icons/hicolor/512x512/apps/sidestick.png</file>
+  </qresource>
+</RCC>

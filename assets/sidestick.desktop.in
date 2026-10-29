@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Sidestick
+GenericName=Sample Manager
+Comment=Unofficial sample manager for the Behringer LM Drum
+Exec=@SIDESTICK_DESKTOP_EXEC@
+Icon=@SIDESTICK_APP_ID@
+Terminal=false
+Categories=AudioVideo;Audio;Midi;
+Keywords=drum;sample;LM Drum;MIDI;

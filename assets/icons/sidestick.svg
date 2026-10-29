@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sidestick app icon: a drumstick laid across a snare drum's rim (the sidestick stroke). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f6f78"/>
+      <stop offset="1" stop-color="#134a52"/>
+    </linearGradient>
+    <!-- tapered stick: bead tip on the head, butt end past the far rim -->
+    <g id="stick">
+      <polygon points="75.78,146.09 222.05,59.04 229.95,72.96 80.22,153.91"/>
+      <circle cx="226" cy="66" r="8"/>
+      <circle cx="74.5" cy="152" r="7"/>
+    </g>
+  </defs>
+  <!-- background -->
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <!-- drum shell (bottom edge, sides), outlined -->
+  <ellipse cx="116" cy="190" rx="88" ry="34" fill="#36525b" stroke="#1b2a30" stroke-width="6"/>
+  <rect x="28" y="140" width="176" height="50" fill="#36525b"/>
+  <line x1="28" y1="140" x2="28" y2="190" stroke="#1b2a30" stroke-width="6"/>
+  <line x1="204" y1="140" x2="204" y2="190" stroke="#1b2a30" stroke-width="6"/>
+  <!-- head with its rim -->
+  <ellipse cx="116" cy="140" rx="88" ry="34" fill="#e8eef0" stroke="#1b2a30" stroke-width="8"/>
+  <!-- stick: dark outline underneath, then the wood -->
+  <use href="#stick" fill="#1b2a30" stroke="#1b2a30" stroke-width="8" stroke-linejoin="round"/>
+  <use href="#stick" fill="#f1e4c8"/>
+</svg>

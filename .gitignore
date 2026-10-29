@@ -1,0 +1,10 @@
+# Platform-specific virtualenv, rebuilt on each machine
+.venv/
+# Generated output (extracted WAVs etc.)
+exports/
+# Local Claude Code settings
+.claude/
+__pycache__/
+.DS_Store
+# CMake build output
+build/

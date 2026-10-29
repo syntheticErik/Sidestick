@@ -76,7 +76,6 @@ wget https://github.com/syntheticErik/Sidestick/releases/download/v1.0.0/Sidesti
 su -
 cd /path/to/sidestick && sh sidestick.SlackBuild
 installpkg /tmp/sidestick-1.0.0-x86_64-1_SBo.tgz
-
 ```
 
 - **Upgrade:** build the new version the same way, then upgradepkg /tmp/sidestick-<version>-x86_64-1_SBo.tgz

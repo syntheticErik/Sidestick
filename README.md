@@ -133,7 +133,7 @@ Back on the main application window a few more useful settings are available tuc
 
 - Samples can't be deleted from the device via the software
   - In defense of Sidestick, SynthTribe can't do this either. Deleting a sample from the device doesn't send out any monitor-able MIDI signal, so cracking this is likely going to mean sending random delete commands to the device until a sample is deleted, then working backwards from that. Unfortunately I don't consider my device sacrificial so i'm uncomfortable with doing that.
-- Samples can't be renamed via the software
+- Samples can't be renamed via the software after they're uploaded
   
 ---
 
